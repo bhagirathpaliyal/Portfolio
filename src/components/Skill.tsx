@@ -5,15 +5,15 @@ const Skill = () => {
   return (
     <div className="flex flex-col items-center my-[50px]">
       <p className="text-[16px]">Explore My</p>
-      <h2 className="text-[48px] font-bold">Skills</h2>
+      <h2 className="md:text-[48px] text-[32px] font-bold">Skills</h2>
 
-      <div className="flex justify-between w-[100%]  mt-[32px]">
+      <div className="flex max-md:flex-col max-md:gap-[20px] justify-between w-[100%]  mt-[32px]">
         <div className="border p-[20px] rounded-[20px] flex flex-col items-center">
-          <h3 className="font-bold text-[28px] text-[#555555] mb-[32px]">
-            Programming Langauge
+          <h3 className="font-bold md:text-[28px] text-center text-[20px] text-[#555555] mb-[32px]">
+            Programming Language
           </h3>
 
-          <div className="flex gap-[10px]">
+          <div className="flex max-md:flex-col gap-[10px]">
             <div className="flex gap-[10px]">
               <img
                 src="../../public/assets/checkmark.png"
@@ -49,11 +49,11 @@ const Skill = () => {
 
 
         <div className="border p-[20px] rounded-[20px] flex flex-col items-center">
-          <h3 className="font-bold text-[28px] text-[#555555] mb-[32px]">
+          <h3 className="font-bold md:text-[28px] text-[20px] text-[#555555] mb-[32px]">
             Markup and Style
           </h3>
 
-          <div className="flex gap-[10px]">
+          <div className="flex max-md:flex-col gap-[10px]">
             <div className="flex gap-[10px]">
               <img
                 src="../../public/assets/checkmark.png"
@@ -92,11 +92,11 @@ const Skill = () => {
 
 
         <div className="border p-[20px] rounded-[20px] flex flex-col items-center">
-          <h3 className="font-bold text-[28px] text-[#555555] mb-[32px]">
+          <h3 className="font-bold md:text-[28px] text-[20px] text-[#555555] mb-[32px]">
            Library
           </h3>
 
-          <div className="flex gap-[10px]">
+          <div className="flex max-md:flex-col gap-[10px]">
             <div className="flex gap-[10px]">
               <img
                 src="../../public/assets/checkmark.png"
