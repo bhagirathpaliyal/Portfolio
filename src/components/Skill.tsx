@@ -1,5 +1,4 @@
-import React from "react";
-import img from "../../public/assets/checkmark.png";
+
 
 const Skill = () => {
   return (
