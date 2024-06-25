@@ -3,7 +3,7 @@
 
 const About = () => {
   return (
-    <div className='flex flex-col items-center my-[50px]'>
+    <div  id="section1" className=' flex flex-col items-center  md:py-[100px] py-[50px] animate-[appear_linear] animationTimeline '>
       
       <p className='text-[16px]'>Get To Know More</p>
       <h2 className='md:text-[48px] text-[32px] font-bold'>About Me</h2>

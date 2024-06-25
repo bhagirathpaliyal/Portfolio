@@ -12,3 +12,14 @@
     padding: 0px;
     
 }
+
+.animationTimeline{
+    animation-timeline: view();
+    animation-range: entry 0 ;
+   
+
+}
+
+.overflow-hidden {
+    overflow: hidden;
+  }

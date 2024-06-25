@@ -3,7 +3,7 @@ import img from "../../public/assets/checkmark.png";
 
 const Skill = () => {
   return (
-    <div className="flex flex-col items-center my-[50px]">
+    <div  id="section2" className="section2 flex flex-col items-center md:py-[100px] py-[50px] animate-[appear1_linear] animationTimeline">
       <p className="text-[16px]">Explore My</p>
       <h2 className="md:text-[48px] text-[32px] font-bold">Skills</h2>
 
