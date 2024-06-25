@@ -5,7 +5,7 @@ const Home: React.FC<HomeProps> = ({ scrollToSection }) => {
   return (
     <div className="h-[100vh] flex max-md:flex-col  md:justify-center items-center gap-[100px] max-md:gap-[50px] max-md:mt-[50px] ">
       <img
-        src="../../public/assets/MyImg.jpg"
+        src="./assets/MyImg.jpg"
         className="md:h-[340px] h-[172px] rounded-[50%]"
         alt="profile photo"
       />
@@ -22,7 +22,7 @@ const Home: React.FC<HomeProps> = ({ scrollToSection }) => {
 
         <div className="flex gap-[20px] justify-center my-[10px] mt-[16px]">
           <a
-            href="../../public/assets/Resume.docx"
+            href="./assets/Resume.docx"
             download="Bhagirath's Resume"
             target="_blank"
           >
@@ -44,14 +44,14 @@ const Home: React.FC<HomeProps> = ({ scrollToSection }) => {
             target="_blank"
           >
             <img
-              src="../../public/assets/linkedin.png"
+              src="./assets/linkedin.png"
               alt="LinkedIn-logo"
               className="h-[32px]"
             />
           </a>
           <a href="https://github.com/bhagirathpaliyal" target="_blank">
             <img
-              src="../../public/assets/github.png"
+              src="./assets/github.png"
               alt="Github-logo"
               className="h-[32px]"
             />

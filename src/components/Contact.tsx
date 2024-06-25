@@ -12,7 +12,7 @@ const Contact = () => {
           {" "}
           <div className="flex md:m-[16px] gap-[5px] justify-center items-center">
             <img
-              src="../../public/assets/email.png"
+              src="./assets/email.png"
               alt="Log"
               className="h-[40px] w-[100%]"
             />
@@ -28,7 +28,7 @@ const Contact = () => {
         >
           <div className="flex md:m-[16px]  gap-[5px] justify-center items-center">
             <img
-              src="../../public/assets/linkedin.png"
+              src="./assets/linkedin.png"
               alt="Logo"
               className="h-[32px] md:h-[40px] "
             />

@@ -15,7 +15,7 @@ const Skill = () => {
           <div className="flex max-md:flex-col gap-[10px]">
             <div className="flex gap-[10px]">
               <img
-                src="../../public/assets/checkmark.png"
+                src="./assets/checkmark.png"
                 alt="checkmark"
                 className="h-[32px]"
               />
@@ -28,7 +28,7 @@ const Skill = () => {
 
             <div className="flex gap-[10px]">
               <img
-                src="../../public/assets/checkmark.png"
+                src="./assets/checkmark.png"
                 alt="checkmark"
                 className="h-[32px]"
               />
@@ -55,7 +55,7 @@ const Skill = () => {
           <div className="flex max-md:flex-col gap-[10px]">
             <div className="flex gap-[10px]">
               <img
-                src="../../public/assets/checkmark.png"
+                src="./assets/checkmark.png"
                 alt="checkmark"
                 className="h-[32px]"
               />
@@ -68,7 +68,7 @@ const Skill = () => {
 
             <div className="flex gap-[10px]">
               <img
-                src="../../public/assets/checkmark.png"
+                src="./assets/checkmark.png"
                 alt="checkmark"
                 className="h-[32px]"
               />
@@ -98,7 +98,7 @@ const Skill = () => {
           <div className="flex max-md:flex-col gap-[10px]">
             <div className="flex gap-[10px]">
               <img
-                src="../../public/assets/checkmark.png"
+                src="./assets/checkmark.png"
                 alt="checkmark"
                 className="h-[32px]"
               />
@@ -111,7 +111,7 @@ const Skill = () => {
 
             <div className="flex gap-[10px]">
               <img
-                src="../../public/assets/checkmark.png"
+                src="./assets/checkmark.png"
                 alt="checkmark"
                 className="h-[32px]"
               />
