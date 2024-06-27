@@ -3,7 +3,7 @@ interface HomeProps {
 }
 const Home: React.FC<HomeProps> = ({ scrollToSection }) => {
   return (
-    <div className="h-[100vh] flex max-md:flex-col  md:justify-center items-center gap-[100px] max-md:gap-[50px] max-md:mt-[50px] ">
+    <div className="h-[100%] flex max-md:flex-col  md:justify-center items-center gap-[100px] max-md:gap-[50px] md:my-[100px] my-[50px]">
       <img
         src="./assets/MyImg.jpg"
         className="md:h-[340px] h-[172px] rounded-[50%]"
@@ -22,7 +22,7 @@ const Home: React.FC<HomeProps> = ({ scrollToSection }) => {
 
         <div className="flex gap-[20px] justify-center my-[10px] mt-[16px]">
           <a
-            href="./assets/Resume.docx"
+            href="./assets/Resume.pdf"
             download="Bhagirath's Resume"
             target="_blank"
           >
