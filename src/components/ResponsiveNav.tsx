@@ -28,7 +28,7 @@ const ResponsiveNav: React.FC<ResponsiveNavProps> = ({
    
      <div
         className={`duration-300 fixed top-[64px] w-[50%] h-[100%] bg-gray-200  
-         ${Active ? "left-[0px]" : "left-[-100%]"}`}
+         ${active ? "left-[0px]" : "left-[-100%]"}`}
       >
   
       <button
