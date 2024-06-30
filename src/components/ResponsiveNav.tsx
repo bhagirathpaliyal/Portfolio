@@ -25,11 +25,12 @@ const ResponsiveNav: React.FC<ResponsiveNavProps> = ({
   }, [setIsActive]);
 
   return (
-    <div
-      className={`${
-        active ? "fixed left-0 top-0 " : "fixed left-[-100%] top-0"
-      } w-[100%] h-[100vh] bg-gray-200 `}
-    >
+   
+     <div
+        className={`duration-300 fixed top-[64px] w-[50%] h-[100%] bg-gray-200  
+         ${isOpen ? "left-[0px]" : "left-[-100%]"}`}
+      >
+  
       <button
         onClick={() => setIsActive(false)}
         className=" w-[100%] flex justify-end pt-[20px] pr-[20px]"
