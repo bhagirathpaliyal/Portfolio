@@ -25,12 +25,10 @@ const ResponsiveNav: React.FC<ResponsiveNavProps> = ({
   }, [setIsActive]);
 
   return (
-   
-     <div
-        className={`duration-300 fixed top-[0px] w-[100%] h-[100vh] bg-gray-200  
+    <div
+      className={`duration-300 fixed top-[0px] w-[100%] h-[100vh] bg-gray-200 dark:bg-[#1e1e1e]  
          ${active ? "left-[0px]" : "left-[-100%]"}`}
-      >
-  
+    >
       <button
         onClick={() => setIsActive(false)}
         className=" w-[100%] flex justify-end pt-[20px] pr-[20px]"
@@ -49,6 +47,7 @@ const ResponsiveNav: React.FC<ResponsiveNavProps> = ({
               setIsActive(false);
               scrollToSection("section1");
             }}
+            className="dark:text-[#e0e0e0]"
           >
             About
           </li>
@@ -57,6 +56,7 @@ const ResponsiveNav: React.FC<ResponsiveNavProps> = ({
               setIsActive(false);
               scrollToSection("section2");
             }}
+            className="dark:text-[#e0e0e0]"
           >
             Skill
           </li>
@@ -65,6 +65,7 @@ const ResponsiveNav: React.FC<ResponsiveNavProps> = ({
               setIsActive(false);
               scrollToSection("section3");
             }}
+            className="dark:text-[#e0e0e0]"
           >
             Project
           </li>
@@ -73,6 +74,7 @@ const ResponsiveNav: React.FC<ResponsiveNavProps> = ({
               setIsActive(false);
               scrollToSection("section4");
             }}
+            className="dark:text-[#e0e0e0]"
           >
             Contact
           </li>
