@@ -32,8 +32,8 @@ const App: React.FC = () => {
   return (
     <div className={`container w-[80%] mx-auto font-poppins animate-[appear_linear] animationTimeline ${darkMode ? 'dark' : ''}`}>
       <Header scrollToSection={scrollToSection} toggleDarkMode={toggleDarkMode} />
-      <button onClick={toggleDarkMode} className="p-[16px] rounded-[25px] text-[13px] font-bold border-[2px] border-[#353535] text-[#ffffff] bg-[#353535] hover:bg-[#000000] hover:border-[#000000]">
-        Toggle Dark Mode
+      <button onClick={toggleDarkMode} className="md:hidden p-[16px] rounded-[25px] text-[13px] font-bold border-[2px] border-[#353535] text-[#ffffff] bg-[#353535] hover:bg-[#000000] hover:border-[#000000]">
+        Dark Mode
       </button>
       <Home scrollToSection={scrollToSection}/>
       <About />
