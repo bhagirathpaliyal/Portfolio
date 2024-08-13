@@ -4,9 +4,10 @@ import ResponsiveNav from "./ResponsiveNav";
 
 interface HeaderProps {
   scrollToSection: (id: string) => void;
+  toggleDarkMode: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ scrollToSection }) => {
+const Header: React.FC<HeaderProps> = ({ scrollToSection, toggleDarkMode }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
@@ -26,6 +27,9 @@ const Header: React.FC<HeaderProps> = ({ scrollToSection }) => {
           />
         )}
       </div>
+      <button onClick={toggleDarkMode} className="max-md:hidden p-[16px] rounded-[25px] text-[13px] font-bold border-[2px] border-[#353535] text-[#ffffff] bg-[#353535] hover:bg-[#000000] hover:border-[#000000]">
+        Toggle Dark Mode
+      </button>
     </div>
   );
 };

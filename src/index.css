@@ -1,29 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
-    
 }
 
-.animationTimeline{
+.animationTimeline {
     animation-timeline: view();
-    animation-range: entry 0 ;
-   
-
+    animation-range: entry 0;
 }
 
 .overflow-hidden {
     overflow: hidden;
-  }
+}
 
 .transition-left {
     transition: left 0.3s ease-in-out;
-  }
+}
+
+/* Dark mode styles */
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark .bg-white {
+    background-color: #1e1e1e;
+}
+
+.dark .text-black {
+    color: #e0e0e0;
+}
+
+.dark .border {
+    border-color: #333333;
+}
+
+.dark .hover\:bg-gray-200:hover {
+    background-color: #333333;
+}
+
+.dark .hover\:text-black:hover {
+    color: #e0e0e0;
+}
+
+.dark .hover\:bg-[#353535]:hover {
+    background-color: #555555;
+}
+
+.dark .hover\:text-[#ffffff]:hover {
+    color: #e0e0e0;
+}
