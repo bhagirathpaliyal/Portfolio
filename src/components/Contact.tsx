@@ -5,7 +5,7 @@ const Contact = () => {
       className="section4 flex flex-col items-center md:py-[100px] py-[50px]s animate-[appear1_linear] animationTimeline"
     >
       <p className="text-[16px]">Get in Touch</p>
-      <h2 className="md:text-[48px] text-[32px] font-bold">Contact Me</h2>
+      <h2 className="md:text-[28px] text-[20px] font-bold">Contact Me</h2>
 
       <div className="border border-[#a3a3a3] flex max-md:flex-col  p-[8px] rounded-[20px] my-[32px]">
         <a href="mailto:bhagirathpaliyal@gmail.com">

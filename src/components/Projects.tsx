@@ -5,17 +5,17 @@ const Projects = () => {
       className="section3 flex flex-col items-center md:py-[100px] py-[50px] animate-[appear_linear] animationTimeline"
     >
       <p className="text-[16px]">Browse My Recent</p>
-      <h2 className="md:text-[48px] text-[32px] font-bold">Projects</h2>
+      <h2 className="md:text-[28px] text-[20px] font-bold">Projects</h2>
 
       <div className="flex max-md:flex-col  gap-[30px] w-[100%] my-[32px]">
-        <div className="flex flex-col justify-center items-center bg-[#fafafa] border  border-[#a3a3a3] rounded-[50px] p-[24px]">
+        <div className="flex flex-col items-center dark:bg-[#555555] border  border-[#a3a3a3] rounded-[26px] overflow-hidden">
           <img
-            src="https://picsum.photos/id/2/500"
+            src="./assets/ecommerce-page.png"
             alt="img"
-            className="rounded-[30px]"
+            
           />
-          <h4 className="md:text-[28px] text-[20px] m-[16px]">Project One</h4>
-          <div className="flex gap-[20px] w-[100%]">
+          <h4 className="md:text-[28px] text-[20px] m-[16px]">E-commerce-page</h4>
+          <div className="flex gap-[20px] w-[100%] px-[20px] pb-[20px]">
             <a
               href="https://github.com/bhagirathpaliyal/E-commerce-page"
               target="_blank"
@@ -41,37 +41,69 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center bg-[#fafafa] border  border-[#a3a3a3] rounded-[50px] p-[24px]">
+        <div className="flex flex-col items-center  dark:bg-[#555555] border  border-[#a3a3a3] rounded-[26px] overflow-hidden">
           <img
-            src="https://picsum.photos/id/3/500"
+            src="./assets/advocatePortfolio.png"
             alt="img"
-            className="rounded-[30px]"
+            
           />
-          <h4 className="md:text-[28px] text-[20px] m-[16px]">Project Two</h4>
-          <div className="flex gap-[20px] w-[100%]">
-            <button className="text-[13px] p-[16px] border border-[#a3a3a3] rounded-[30px] hover:bg-[#a3a3a3] w-[100%] ">
-              Github
-            </button>
-            <button className="text-[13px] p-[16px] border border-[#a3a3a3] rounded-[30px] hover:bg-[#a3a3a3] w-[100%]">
-              Live 
-            </button>
+          <h4 className="md:text-[28px] text-[20px] m-[16px] ">Advocate Portfolio</h4>
+          <div className="flex gap-[20px] w-[100%] px-[20px] pb-[20px]">
+            <a
+              href="https://github.com/bhagirathpaliyal/AdvocatePortfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-[100%]"
+            >
+              {" "}
+              <button className="text-[13px] p-[16px] border border-[#a3a3a3] rounded-[30px] w-[100%] hover:bg-[#a3a3a3]">
+                Github
+              </button>
+            </a>
+            <a
+              href="https://bhagirathpaliyal.github.io/AdvocatePortfolio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-[100%]"
+            >
+              {" "}
+              <button className="text-[13px] p-[16px] border border-[#a3a3a3] rounded-[30px] w-[100%] hover:bg-[#a3a3a3]">
+                Live 
+              </button>
+            </a>
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center bg-[#fafafa] border  border-[#a3a3a3] rounded-[50px] p-[24px]">
+        <div className="flex flex-col items-center dark:bg-[#555555] border  border-[#a3a3a3] rounded-[26px] overflow-hidden">
           <img
-            src="https://picsum.photos/id/4/500"
+            src="./assets/typingTest.png"
             alt="img"
-            className="rounded-[30px]"
+            
           />
-          <h4 className="md:text-[28px] text-[20px] m-[16px]">Project Three</h4>
-          <div className="flex gap-[20px] w-[100%]">
-            <button className="text-[13px] p-[16px] border border-[#a3a3a3] rounded-[30px] hover:bg-[#a3a3a3] w-[100%] ">
-              Github
-            </button>
-            <button className="text-[13px] p-[16px] border border-[#a3a3a3] rounded-[30px] hover:bg-[#a3a3a3] w-[100%]">
-              Live 
-            </button>
+          <h4 className="md:text-[28px] text-[20px] m-[16px]">Typing Speed Test</h4>
+          <div className="flex gap-[20px] w-[100%] px-[20px] pb-[20px]">
+            <a
+              href="https://github.com/bhagirathpaliyal/typingSpeedTest"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-[100%]"
+            >
+              {" "}
+              <button className="text-[13px] p-[16px] border border-[#a3a3a3] rounded-[30px] w-[100%] hover:bg-[#a3a3a3]">
+                Github
+              </button>
+            </a>
+            <a
+              href="https://bhagirathpaliyal.github.io/typingSpeedTest/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-[100%]"
+            >
+              {" "}
+              <button className="text-[13px] p-[16px] border border-[#a3a3a3] rounded-[30px] w-[100%] hover:bg-[#a3a3a3]">
+                Live 
+              </button>
+            </a>
           </div>
         </div>
       </div>
