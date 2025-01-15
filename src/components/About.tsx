@@ -5,7 +5,7 @@ const About = () => {
       className=" flex flex-col items-center  md:py-[100px] py-[50px] animate-[appear_linear] animationTimeline "
     >
       <p className="text-[16px]">Get To Know More</p>
-      <h2 className="md:text-[48px] text-[32px] font-bold">About Me</h2>
+      <h2 className="md:text-[28px] text-[20px] font-bold">About Me</h2>
       <div>
         <div>
           <div className="flex max-md:flex-col max-md:gap-[20px] justify-around my-[30px]">

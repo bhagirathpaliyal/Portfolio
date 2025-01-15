@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -16,31 +16,37 @@ const App: React.FC = () => {
 
   useEffect(() => {
     if (darkMode) {
-      document.body.classList.add('dark');
+      document.body.classList.add("dark");
     } else {
-      document.body.classList.remove('dark');
+      document.body.classList.remove("dark");
     }
   }, [darkMode]);
 
   const scrollToSection = (id: string): void => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   return (
-    <div className={`container w-[80%] mx-auto font-poppins animate-[appear_linear] animationTimeline ${darkMode ? 'dark' : ''}`}>
-      <Header scrollToSection={scrollToSection} toggleDarkMode={toggleDarkMode} />
-      <button onClick={toggleDarkMode} className="md:hidden p-[16px] rounded-[25px] text-[13px] font-bold border-[2px] border-[#353535] text-[#ffffff] bg-[#353535] hover:bg-[#000000] hover:border-[#000000]">
-        Dark Mode
-      </button>
-      <Home scrollToSection={scrollToSection}/>
+    <div
+      className={`container w-[80%] mx-auto font-poppins animate-[appear_linear] animationTimeline ${
+        darkMode ? "dark" : ""
+      }`}
+    >
+      <Header
+        scrollToSection={scrollToSection}
+        toggleDarkMode={toggleDarkMode}
+        darkMode={darkMode}
+      />
+      
+      <Home scrollToSection={scrollToSection} />
       <About />
       <Skill />
       <Projects />
       <Contact />
-      <Footer scrollToSection={scrollToSection}/>
+      <Footer scrollToSection={scrollToSection} />
     </div>
   );
 };

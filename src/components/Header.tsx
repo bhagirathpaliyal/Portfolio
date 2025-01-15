@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import ResponsiveNav from "./ResponsiveNav";
+import { MoonIcon,SunIcon } from "@heroicons/react/16/solid";
 
 interface HeaderProps {
   scrollToSection: (id: string) => void;
   toggleDarkMode: () => void;
+  darkMode:boolean
 }
 
-const Header: React.FC<HeaderProps> = ({ scrollToSection, toggleDarkMode }) => {
+const Header: React.FC<HeaderProps> = ({ scrollToSection, toggleDarkMode,darkMode }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <div className="flex h-[80px] justify-between items-center md:px-[50px]">
+    <div className="sticky top-0 z-10 bg-[#fff] dark:bg-[#121212] flex h-[80px] justify-between items-center md:px-[50px]">
       <div className="md:text-[32px] text-[24px]">BP</div>
       <div className="max-md:hidden">
         <Navbar scrollToSection={scrollToSection} />
@@ -27,8 +29,12 @@ const Header: React.FC<HeaderProps> = ({ scrollToSection, toggleDarkMode }) => {
           />
         )}
       </div>
-      <button onClick={toggleDarkMode} className="max-md:hidden p-[16px] rounded-[25px] text-[13px] font-bold border-[2px] border-[#353535] text-[#ffffff] bg-[#353535] hover:bg-[#000000] hover:border-[#000000]">
-        Toggle Dark Mode
+      <button onClick={toggleDarkMode} className="">
+      {darkMode ? (
+        <SunIcon className="h-6 w-6 text-[#fff]" />
+      ) : (
+        <MoonIcon className="h-6 w-6 text-[#000]" />
+      )}
       </button>
     </div>
   );

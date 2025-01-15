@@ -4,7 +4,7 @@ const Skill = () => {
   return (
     <div  id="section2" className="section2 flex flex-col items-center md:py-[100px] py-[50px] animate-[appear1_linear] animationTimeline">
       <p className="text-[16px]">Explore My</p>
-      <h2 className="md:text-[48px] text-[32px] font-bold">Skills</h2>
+      <h2 className="md:text-[28px] text-[20px] font-bold">Skills</h2>
 
       <div className="flex max-md:flex-col max-md:gap-[20px] justify-between w-[100%]  mt-[32px]">
         <div className="border p-[20px] rounded-[20px] flex flex-col items-center">
