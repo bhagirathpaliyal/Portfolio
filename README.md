@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a personal portfolio website built using **React.js**, **TypeScript** and **Tailwind CSS** . The portfolio showcases a collection of personal projects, skills, and contact information, providing a professional way to introduce yourself online.
+This is a personal portfolio website built using **React.js**, **TypeScript** and **Tailwind CSS** . The portfolio showcases a collection of personal projects, skills, and contact information, providing a professional way to introduce myself online.
 
 ## Live Demo
 
