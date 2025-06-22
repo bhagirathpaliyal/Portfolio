@@ -62,7 +62,7 @@ const Skill = () => {
   return (
     <div
       id="section2"
-      className="section2 flex flex-col items-center md:py-[100px] py-[50px] animate-[appear1_linear] animationTimeline"
+      className="section2 flex flex-col items-center md:pt-[100px] pt-[50px] animate-[appear1_linear] animationTimeline"
     >
       <p className="text-[16px]">Explore My</p>
       <h2 className="md:text-[28px] text-[20px] font-bold">Skills</h2>

@@ -15,10 +15,10 @@ const Home: React.FC<HomeProps> = ({ scrollToSection }) => {
         <p className="text-[16px] dark:text-white text-[#000000] text-center font-medium">
           Hello, I'm
         </p>
-        <h1 className="md:text-[48px] text-[32px] text-[#000000] dark:text-white font-bold text-center">
+        <h1 className="md:text-[38px] text-[28px] text-[#000000] dark:text-white font-bold text-center">
           Bhagirath Paliyal
         </h1>
-        <p className="md:text-[28px] text-[20px] text-[#555555] text-center font-medium">
+        <p className="md:text-[26px] text-[18px] text-[#555555] text-center font-medium">
           Frontend Developer
         </p>
 
@@ -29,13 +29,13 @@ const Home: React.FC<HomeProps> = ({ scrollToSection }) => {
             target="_blank"
           >
             {" "}
-            <button className="p-[16px] rounded-[25px] text-[#000000] dark:text-white text-[13px] font-bold border-[2px] border-[#353535] dark:border-[#fff] hover:bg-[#353535]  hover:text-[#ffffff]">
+            <button className="p-[12px] rounded-[25px] text-[#000000] dark:text-white text-[13px] font-bold border-[2px] border-[#353535] dark:border-[#fff] hover:bg-[#353535]  hover:text-[#ffffff]">
               Download CV
             </button>
           </a>
           <button
             onClick={() => scrollToSection("section4")}
-            className="p-[16px] rounded-[25px] text-[13px] font-bold border-[2px] border-[#353535] text-[#ffffff] dark:text-[#000] bg-[#353535] hover:bg-[#000000] dark:bg-[#fff] hover:border-[#000000]"
+            className="p-[12px] rounded-[25px] text-[13px] font-bold border-[2px] border-[#353535] text-[#ffffff] dark:text-[#000] bg-[#353535] hover:bg-[#000000] dark:bg-[#fff] hover:border-[#000000]"
           >
             Contact Info
           </button>
