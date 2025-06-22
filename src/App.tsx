@@ -29,6 +29,7 @@ const App: React.FC = () => {
     }
   };
 
+
   return (
     <div
       className={`container w-[80%] mx-auto font-poppins animate-[appear_linear] animationTimeline ${
@@ -44,7 +45,7 @@ const App: React.FC = () => {
       <Home scrollToSection={scrollToSection} />
       <About />
       <Skill />
-      <Projects />
+      <Projects autoplay={true} />
       <Contact />
       <Footer scrollToSection={scrollToSection} />
     </div>

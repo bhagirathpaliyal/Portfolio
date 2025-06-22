@@ -13,8 +13,8 @@ const Header: React.FC<HeaderProps> = ({ scrollToSection, toggleDarkMode,darkMod
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <div className="sticky top-0 z-10 bg-[#fff] dark:bg-[#121212] flex h-[80px] justify-between items-center md:px-[50px]">
-      <div className="md:text-[32px] text-[24px]">BP</div>
+    <div className="sticky top-0 z-[1000] bg-[#fff] dark:bg-[#121212] flex h-[80px] justify-between items-center md:px-[50px]">
+      <div className="md:text-[20px] max-md:hidden">BP</div>
       <div className="max-md:hidden">
         <Navbar scrollToSection={scrollToSection} />
       </div>
